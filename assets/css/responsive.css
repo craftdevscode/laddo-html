@@ -1,0 +1,20 @@
+/* Extra large Layout : ≥1200px */
+@media only screen and (min-width: 1200px) and (max-width: 2000px) {
+
+}
+/* Large Layout :≥992px*/
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+}
+/* Medium Layout : ≥768px */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .single-project-info{margin-bottom: 40px;}
+}
+/* Small Layout : ≥576px */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .me-img, .single-project-info{margin-bottom: 40px;}.about-me-content{padding-left: 0;}.t-img{display: none}
+}
+/* Extra small Layout :<576px */
+@media only screen and (min-width: 1px) and (max-width: 575px) {
+    .me-img, .single-project-info{margin-bottom: 40px;}.about-me-content{padding-left: 0;}.t-img{display: none}
+}
